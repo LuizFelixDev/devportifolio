@@ -1,7 +1,3 @@
-* {
-
-}
-
 .body {
   display: flex;
   flex-direction: column;
@@ -18,13 +14,36 @@
   background-size: 100% 100%, 32px 32px, 32px 32px;
 }
 
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  width: 100%;
+  height: 50vw;
+}
+
+.information{
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
 .textrobotic {
   font-size: 20px;
   margin-top: 100px;
-  margin-left: 25px;
   color: #2cb7f2;
   font-family: 'Fira Code', monospace;
   letter-spacing: 2px;
+}
+
+.foto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 450px;
+  width: 350px;
+  background-color: #4c7fee57;
 }
 
 
@@ -39,7 +58,6 @@
 .title {
   font-size: 80px;
   color: white;
-  margin-left: 25px;
   font-family: "Share Tech", sans-serif;
   font-weight: 400;
   font-style: normal;
@@ -54,8 +72,45 @@
 }
 
 .text-home {
-  margin-left: 25px;
   color: #6e7c8c;
   font-family: "Space Grotesk", sans-serif;
   font-size: 20px;
+}
+
+.img {
+  align-self: center;
+  height: 320px;
+  width: 300px;
+}
+
+.opentowork {
+  font-size: 12px;
+  height: 30px;
+  width: 200px;
+  background-color: #090d11;
+  align-self: flex-start;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #6e7c8c;
+  font-family: 'Fira Code', monospace;
+  border: 1px solid #9c9f99e9 ;
+}
+
+.bolinha {
+  width: 40px;
+  height: 28px;
+}
+
+.moldura {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+  margin-bottom: 100px;
+  height: 480px;
+  width: 380px;
+  border: 2px solid #2cb7f2;
 }
