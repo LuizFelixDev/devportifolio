@@ -6,9 +6,6 @@ export function Home() {
 
   return (
     <div className='body'>
-      <header>
-        <p className='textroboticbar'>DEV.PORTIFOLIO</p>
-      </header>
       <div className='container'>
         <div className='information'>
           <p className='textrobotic'>&gt;  HELLO_WORLD.EXE</p>

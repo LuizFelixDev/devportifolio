@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    background-color: #080b11;
+}
+
+header {
+    background-color: #080b11;
+}
+
+.bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 0 0 0 25px;
+    font-size: 20px;
+    color: #82c8e6;
+    font-family: 'Fira Code', monospace;
+    letter-spacing: 2px;
+}
+
+.nav-bar{
+  display: flex;
+  margin-left: 800px;
+}
+
+.sobre, .habilidades, .projetos, .contato{
+  background-color: transparent;
+  color: #6e7c8c;
+  font-family: 'Fira Code', monospace;
+  border: none;
+  font-size: 16px;
+  padding: auto;
+}
+
+.sobre:hover, .habilidades:hover, .projetos:hover, .contato:hover{
+  color: #82c8e6;
+  cursor: pointer;
+}
+
+.logo {
+  margin-right: 15px;
+  height: 28px;
+
+}
