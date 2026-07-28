@@ -1,6 +1,10 @@
 import './styles.css'
 import foto from '../../assets/image.png'
 import bolinha from '../../assets/bolinha.png'
+import git from '../../assets/gitlogo.png'
+import linkedin from '../../assets/linkedin.png'
+import carta from '../../assets/carta.png'
+
 
 export function Home() {
 
@@ -16,10 +20,28 @@ export function Home() {
             </span>
           </h1>
           <p className='text-home'>
-            Desenvolvedor de software apaixonado por construir <br />
-            produtos digitais elegantes e escaláveis. Transformo ideias <br />
-            complexas em código limpo e experiências que importam.
+            Sou Luiz Henrique Felix Guedes, desenvolvedor Full Stack <br />
+            focado em construir aplicações modernas, eficientes e escaláveis. <br />
+            Tenho experiência com React, React Native, Next.js, Node.js, TypeScript, <br />
+            Prisma e PostgreSQL, participando de todas as etapas do desenvolvimento, <br />
+            da arquitetura à entrega. Encaro desafios com responsabilidade, <br />
+            aprendizado contínuo e compromisso com qualidade. Meu objetivo <br />
+            é desenvolver soluções que gerem impacto real e entreguem valor para pessoas e negócios.
           </p>
+          <div className='my-redes'>
+            <button className='bt1'
+              onClick={() => window.open('https://github.com/Luizfelixdev', '_blank')}
+            ><img src={git} alt='GitHub' className='git' /></button>
+            <button className='bt2'
+              onClick={() => window.open('https://www.linkedin.com/in/luizfelixdev/', '_blank')}>
+              <img src={linkedin} alt='Linkedin' className='linkedin' /></button>
+            <button
+              className="bt3"
+              onClick={() => window.location.href = 'https://mail.google.com/mail/u/0/#inbox?compose=new'}
+            >
+              <img src={carta} alt="carta" className="carta" />
+            </button>
+          </div>
         </div>
         <div className='moldura'>
           <div className='foto'>
