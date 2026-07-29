@@ -57,6 +57,9 @@
   border: 1px solid #172530;
   margin-left: 108px;
   margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .text-sobre-card {
@@ -65,4 +68,29 @@
   font-family: 'Fira Code', monospace;
   letter-spacing: 2px;
   font-size: 13px;
+}
+
+.icons {
+  width: 80px;
+  height: 80px;
+}
+
+.curso {
+  color: white;
+  font-family: "Share Tech", sans-serif;
+  font-size: 10;
+  margin-bottom: -5px;
+  margin-top: -5px;
+}
+
+.data {
+  color: #3b4146;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
+}
+
+.universidade {
+  color: #788088;
+  font-family: 'Fira Code', monospace;
+  font-size: 12px;
 }

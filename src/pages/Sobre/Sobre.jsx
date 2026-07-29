@@ -1,4 +1,6 @@
 import './styles.css';
+import curso from '../../assets/curso.png'
+import job from '../../assets/job.png'
 
 export function Sobre() {
     return (
@@ -29,13 +31,58 @@ export function Sobre() {
                     </p>
                 </div>
                 <div className='container-formações'>
-                    <p className='text-sobre-card'>FOMAÇÃO</p>
-                    <div className='card-sobre'></div>
-                    <div className='card-sobre'></div>
+                    <p className='text-sobre-card'>FORMAÇÃO</p>
+                    <div className='card-sobre'>
+                        <div>
+                            <img src={curso} className='icons' />
+                        </div>
+                        <div>
+                            <p className='data'>2024 – Atualmente</p>
+                            <p className='curso'>Sistemas de Informação</p>
+                            <p className='universidade'>Universidade Federal do Rio Grande do Norte</p>
+                        </div>
+                    </div>
+                    <div className='card-sobre'>
+                        <div>
+                            <img src={curso} className='icons' />
+                        </div>
+                        <div>
+                            <p className='data'>2020 – 2024</p>
+                            <p className='curso'>Técnico em Edificações</p>
+                            <p className='universidade'>IFPB - Instituto Federal da Paraíba</p>
+                        </div>
+                    </div>
                     <p className='text-sobre-card'>EXPERIÊNCIA</p>
-                    <div className='card-sobre'></div>
-                    <div className='card-sobre'></div>
-                    <div className='card-sobre'></div>
+                    <div className='card-sobre'>
+                        <div>
+                            <img src={job} className='icons' />
+                        </div>
+                        <div>
+                            <p className='data'>Mar 2026 – Hoje</p>
+                            <p className='curso'>Desenvolvedor Front-end · Tech Lead</p>
+                            <p className='universidade'>App de Delivery de Serviços (Projeto pessoal em equipe)</p>
+                        </div>
+                    </div>
+                    <div className='card-sobre'>
+                        <div>
+                            <img src={job} className='icons' />
+                        </div>
+                        <div>
+                            <p className='data'>Jan 2026 – Hoje</p>
+                            <p className='curso'>Desenvolvedor NoCode</p>
+                            <p className='universidade'>SEAPAC, Brasil</p>
+                        </div>
+                    </div>
+                    <div className='card-sobre'>
+                        <div>
+                            <img src={job} className='icons' />
+                        </div>
+                        <div>
+                            <p className='data'>Out 2025 – Jul 2026</p>
+                            <p className='curso'>Desenvolvedor Web</p>
+                            <p className='universidade'>UFRN — Sistema para loja de roupas</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
