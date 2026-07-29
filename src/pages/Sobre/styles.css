@@ -34,4 +34,35 @@
   color: #57626e;
   font-family: "Space Grotesk", sans-serif;
   font-size: 15px;
+  margin-left: 100px;
+}
+
+.linha {
+  width: 50px;
+  margin-left: 100px;
+  border-color: #2cb7f2;
+  margin-bottom: 40px;
+  margin-top: -20px;
+}
+
+.container-sobre {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-sobre {
+  width: 430px;
+  height: 80px;
+  background-color: #0A0E14;
+  border: 1px solid #172530;
+  margin-left: 108px;
+  margin-bottom: 10px;
+}
+
+.text-sobre-card {
+  margin-left: 108px;
+  color: #2cb7f2;
+  font-family: 'Fira Code', monospace;
+  letter-spacing: 2px;
+  font-size: 13px;
 }
