@@ -1,0 +1,49 @@
+.containerTecnologias {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    background-color: #0A0E14;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    border: 1px solid #172530; 
+}
+
+.title-tech {
+  color: #2cb7f2;
+  font-family: "Share Tech", sans-serif;
+}
+
+.img-tech {
+  height: 130px;
+  width: 130px;
+}
+
+.img-sql{
+ height: 150px;
+ width: 210px;
+ margin-bottom: 40px;
+ margin-top: -30px;
+}
+
+.img-next{
+ height: 90px;
+ width: 90px;
+}
+
+.img-express{
+ height: 85px;
+ width: 85px;
+ margin-top: -75px;
+ margin-left: 78px;
+}
+
+.container-img {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 20px;
+}
