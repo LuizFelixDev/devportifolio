@@ -1,6 +1,7 @@
 import './styles.css';
 import curso from '../../assets/curso.png'
 import job from '../../assets/job.png'
+import { Tecnologias } from '../../components/Tecnologias/Tecnologias'
 
 export function Sobre() {
     return (
@@ -29,6 +30,7 @@ export function Sobre() {
                         eficientes e escaláveis. Mantenho projetos open source no GitHub e estou <br />
                         sempre em busca de desafios de alto impacto.
                     </p>
+                    <Tecnologias />
                 </div>
                 <div className='container-formações'>
                     <p className='text-sobre-card'>FORMAÇÃO</p>
