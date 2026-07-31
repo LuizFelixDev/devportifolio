@@ -1,0 +1,42 @@
+.body-projetos {
+  height: 100vw;
+  width: 100%;
+  background-color: #090B10;
+  padding-top: 80px;
+}
+
+.button-filter {
+  margin-left: 100px;
+  display: flex;
+  background-color: transparent;
+  color: #6e7c8c;
+  border: 1px solid #172530;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -90px;
+  height: 30px;
+}
+
+.button-filter-apertado {
+  margin-left: 100px;
+  display: flex;
+  background-color: transparent;
+  color: #87a5c7; 
+  border: 1px solid #2cb7f2;
+  font-family: 'Fira Code', monospace;
+  font-size: 15px;
+  align-items: center;
+  justify-content: center;
+  margin-right: -90px;
+  height: 30px;
+}
+
+  
+
+.filter-buttons{
+  display: flex;
+  flex-direction: row;
+}
+
